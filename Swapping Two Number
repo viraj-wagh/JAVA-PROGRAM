@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class swapping {
+
+    public static void main(String[] args) {
+
+        Scanner sc=new Scanner(System.in);
+
+        System.out.print("enetr a x=");
+        int x=sc.nextInt();
+
+        System.out.print("enetr a y=");
+        int y=sc.nextInt();
+
+        System.out.println("before  swapping");
+        System.out.println("x :" +x);
+        System.out.println("y :" +y);
+
+        int temp=x;
+        x=y;
+        y=temp;
+
+        System.out.println("after swap");
+        System.out.println("x :" +x);
+        System.out.println("y :" +y);
+
+        
+    }
+    
+}
