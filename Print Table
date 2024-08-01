@@ -1,0 +1,25 @@
+import java.util.Scanner;
+
+public class printtable {
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+
+        System.out.println("enetr a range");
+        int range =sc.nextInt();
+
+        System.out.println("enetr a number");
+        int num=sc.nextInt();
+       
+
+        for(int i=num; i<=range; i++){
+           
+            System.out.println(i*num);
+             
+
+
+        }
+
+    }
+    
+}
