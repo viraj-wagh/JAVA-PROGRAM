@@ -1,0 +1,30 @@
+
+import java.util.Scanner;
+public class pelindromeno{
+
+    public static void main (String [] arg){
+
+        int num;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enetr  a number");
+        num=sc.nextInt();
+
+        int sum=0;
+        int rem;
+        int temp=num;
+
+        while(num>0){
+         rem=num%10;
+         num=num/10;
+         sum=(sum*10)+rem;
+
+        }
+        if(temp==sum){
+             System.out.print("pelindromw");
+
+        } else{
+            System.out.print("not pelindreome");
+        }
+
+    }
+}
