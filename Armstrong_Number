@@ -19,9 +19,9 @@ num=num/10;
 sum=sum+rem*rem*rem;
 }
 if(temp==sum){
-   System.out.println("armstrong");
+   System.out.println("It is armstrong");
 }else{
-   System.out.println("not");
+   System.out.println(" It is not armstrong");
 }
 
 }
